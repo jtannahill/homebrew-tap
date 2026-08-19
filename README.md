@@ -3,5 +3,7 @@
 Homebrew formulae for James Tannahill's tools.
 
 ```bash
-brew install jtannahill/tap/mail-cleanup
+brew tap jtannahill/tap
+brew trust jtannahill/tap      # one-time; Homebrew requires it for third-party taps
+brew install mail-cleanup
 ```
