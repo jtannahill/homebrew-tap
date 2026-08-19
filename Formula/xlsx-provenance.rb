@@ -11,7 +11,7 @@ class XlsxProvenance < Formula
     libexec.install "xlsx_provenance.py"
     (bin/"xlsx-provenance").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["python@3.13"].opt_bin}/python3.13" "#{libexec}/xlsx_provenance.py" "$@"
+      exec "#{formula_opt_bin("python@3.13")}/python3.13" "#{libexec}/xlsx_provenance.py" "$@"
     EOS
   end
 
