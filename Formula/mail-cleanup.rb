@@ -1,8 +1,8 @@
 class MailCleanup < Formula
   desc "Empty Apple Mail junk and trash across accounts, with sender/subject rules"
   homepage "https://github.com/jtannahill/mail-cleanup"
-  url "https://github.com/jtannahill/mail-cleanup/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "f28213f3e0af4fcea0ee76bfd8b352dd0be07e52490bb236e1390d6ee0303957"
+  url "https://github.com/jtannahill/mail-cleanup/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "b8d5b55dd27147422114c4414a4f4cc4f053687a6c2d120f0d946678476f3790"
   license "MIT"
 
   depends_on :macos
